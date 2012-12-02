@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Testumgebung für scripte</title>
+	<script src="evaporation_priestleytaylor.js"></script>
+</head>
+<body>
+	<input id="temperature" type="text" value="25">
+
+	<script type="text/javascript">
+	function runVapourPressure() {
+		var temp = document.getElementById("temperature").value;
+		//vapourPressureArray(temp);
+		alert (calcVapourPressure(temp).satVapourPressure);
+	}
+	</script>
+
+	<button type="button" onclick="runVapourPressure()">
+		Click Me!
+	</button>
+</body>
+</html>
