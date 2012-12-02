@@ -1,0 +1,6 @@
+scripts/RGraph/
+dev/Stylesheets/
+*.pdf
+*.odt
+*.doc*
+*.sublime*
